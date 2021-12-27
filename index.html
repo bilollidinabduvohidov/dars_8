@@ -8,8 +8,30 @@
     <link rel="stylesheet" href="/steyl.css">
     <title>Document</title>
 </head>
-<body>
-        
+<body class="d-flex align-items-center justify-content-center vh-100">
+    <div class="w-75">
+            <form action="" class="form d-flex">
+                <input type="text" placeholder="Todo Name" class="todo-name form-control w-75">
+                <button class="btn btn-primary">Add Todo</button>
+            </form>   
+        <table class="table table-border mt-4">
+            <thead>
+                <tr>
+                    <th>Todo Name</th>
+                    <th>Todo Action</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td>uyga vazifa qilish</td>
+                    <td>
+                        <button class="btn btn-danger">O'chirish</button>
+                        <button class="btn btn-success">Bajarildi</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
     <script src="/main.js"></script>
